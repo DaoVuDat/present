@@ -1,0 +1,16 @@
+.logo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    font-size: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgb(214,155,59);
+    border-radius: 100%;
+    padding: 30px;
+    color: rgb(173,72,62);
+    cursor: pointer;
+
+}
