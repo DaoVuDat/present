@@ -6,6 +6,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import styles from "./App.module.css"
 
 function App() {
+
   return (
     <React.Fragment>
       <div className={styles.app}>
