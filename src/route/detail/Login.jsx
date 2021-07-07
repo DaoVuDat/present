@@ -3,7 +3,7 @@ import {Form, Input, Button, Col, Row} from 'antd';
 import {Redirect, useHistory} from "react-router-dom";
 import styles from "./Login.module.css"
 import image from "../../assets/flat-space-background.jpg";
-import logo from "../../assets/logo.png";
+import dog from "../../assets/dog.svg";
 import useAuth from "../../hooks/useAuth";
 
 const Login = () => {
@@ -30,7 +30,7 @@ const Login = () => {
     return (<div className={styles.main} style={mainStyle}>
       <div className={styles.card}>
         <div className={styles.imgWrapper}>
-          <img src={logo} alt="logo"/>
+          <img src={dog} alt="logo"/>
         </div>
 
         <Form name="login"

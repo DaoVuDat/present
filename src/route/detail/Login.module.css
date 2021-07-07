@@ -21,14 +21,14 @@
 }
 
 .imgWrapper {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 40px;
 }
 
 .imgWrapper img {
     object-fit: cover;
-    width: 100%;
+    width: 90%;
     clip-path: circle(100px at center);
 }
 

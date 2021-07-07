@@ -1,3 +1,5 @@
+
+
 .main {
     width: 100vw;
     height: 100vh;
@@ -8,6 +10,31 @@
     align-items: center;
     background-size: cover;
     background-position: center;
+}
+
+.control {
+    position: fixed;
+    z-index: 100;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    background: wheat;
+    border-radius: 50%;
+    margin: 20px;
+    transition: background-color 300ms;
+}
+
+.circle:hover {
+    background: white;
+}
+
+.circle.selected {
+    background: white;
 }
 
 .logo {
